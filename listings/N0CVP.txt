@@ -1,0 +1,4 @@
+P2PDIR 1
+grid: DM41
+entry: 145090 PACKET 1200 sked listen windows on request, up to 4 h
+note: Ranch Radio station; 2 m packet P2P when a listen window is open
