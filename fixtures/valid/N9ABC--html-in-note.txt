@@ -1,0 +1,4 @@
+P2PDIR 1
+grid: FN31
+entry: 7103 VARA_HF 500 attended <b>mornings</b> & "weekends"
+note: <script>alert('x')</script> & 'quotes' "too"

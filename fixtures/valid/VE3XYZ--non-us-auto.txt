@@ -1,0 +1,3 @@
+P2PDIR 1
+grid: FN03
+entry: 7090 VARA_HF 500 auto 24/7

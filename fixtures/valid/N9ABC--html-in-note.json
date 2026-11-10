@@ -1,0 +1,15 @@
+{
+ "call": "N9ABC",
+ "grid": "FN31",
+ "note": "<script>alert('x')</script> & 'quotes' \"too\"",
+ "entries": [
+  {
+   "centre_khz": 7103,
+   "mode": "VARA_HF",
+   "bw_hz": 500,
+   "control": "attended",
+   "hours": "<b>mornings</b> & \"weekends\"",
+   "flags": []
+  }
+ ]
+}

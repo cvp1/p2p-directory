@@ -1,0 +1,25 @@
+name: List my station
+description: Ask to be listed in the P2P directory
+title: "Listing: <CALL>"
+labels: [listing]
+body:
+  - type: input
+    id: call
+    attributes:
+      label: Callsign
+      description: We will send a Winlink message to this callsign to confirm before listing.
+    validations:
+      required: true
+  - type: textarea
+    id: listing
+    attributes:
+      label: Listing text
+      description: The listing exactly as in the spec. Everything here becomes public.
+      render: text
+      value: |
+        P2PDIR 1
+        grid: 
+        entry: 
+        note: 
+    validations:
+      required: true

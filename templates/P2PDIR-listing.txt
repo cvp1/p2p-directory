@@ -1,0 +1,14 @@
+To: N0CVP
+Subj: P2PDIR listing
+Def: grid=<Ask Your 4-character grid square (e.g. EM12),UP>
+Def: freq=<Ask Centre frequency in kHz (e.g. 7103.5)>
+Def: mode=<Select Mode,VARA HF=VARA_HF,VARA FM=VARA_FM,ARDOP=ARDOP,PACTOR=PACTOR,Packet=PACKET,Robust Packet=ROBUST_PACKET>
+Def: width=<Ask Bandwidth in Hz - VARA HF 500/2300/2750 - or baud for packet 300/1200/9600>
+Def: control=<Select Control,Someone at the radio=attended,Answers automatically=auto,By arrangement=sked>
+Def: hours=<Ask Hours in UTC (e.g. daily 1400-1600Z)>
+Def: note=<Ask A short public station note - 80 characters at most>
+Msg:
+P2PDIR 1
+grid: <Var grid>
+entry: <Var freq> <Var mode> <Var width> <Var control> <Var hours>
+note: <Var note>

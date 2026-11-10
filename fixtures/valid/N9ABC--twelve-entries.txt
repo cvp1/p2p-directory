@@ -1,0 +1,14 @@
+P2PDIR 1
+grid: EM12
+entry: 145010 PACKET 1200 auto slot 0
+entry: 145020 PACKET 1200 auto slot 1
+entry: 145030 PACKET 1200 auto slot 2
+entry: 145040 PACKET 1200 auto slot 3
+entry: 145050 PACKET 1200 auto slot 4
+entry: 145060 PACKET 1200 auto slot 5
+entry: 145070 PACKET 1200 auto slot 6
+entry: 145080 PACKET 1200 auto slot 7
+entry: 145090 PACKET 1200 auto slot 8
+entry: 145100 PACKET 1200 auto slot 9
+entry: 145110 PACKET 1200 auto slot 10
+entry: 145120 PACKET 1200 auto slot 11

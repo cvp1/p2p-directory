@@ -1,0 +1,15 @@
+{
+ "call": "VE3XYZ",
+ "grid": "FN03",
+ "note": "",
+ "entries": [
+  {
+   "centre_khz": 7090,
+   "mode": "VARA_HF",
+   "bw_hz": 500,
+   "control": "auto",
+   "hours": "24/7",
+   "flags": []
+  }
+ ]
+}

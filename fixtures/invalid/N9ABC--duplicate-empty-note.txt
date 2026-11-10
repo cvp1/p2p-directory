@@ -1,0 +1,5 @@
+P2PDIR 1
+grid: EM12
+note:
+entry: 7103.5 VARA_HF 500 attended daily
+note: second

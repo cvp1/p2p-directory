@@ -1,0 +1,23 @@
+{
+ "call": "N9ABC",
+ "grid": "EM12",
+ "note": "NVIS dipole, 100 W",
+ "entries": [
+  {
+   "centre_khz": 7103.5,
+   "mode": "VARA_HF",
+   "bw_hz": 500,
+   "control": "attended",
+   "hours": "daily 1400-1600Z",
+   "flags": []
+  },
+  {
+   "centre_khz": 145090,
+   "mode": "PACKET",
+   "baud": 1200,
+   "control": "auto",
+   "hours": "24/7",
+   "flags": []
+  }
+ ]
+}

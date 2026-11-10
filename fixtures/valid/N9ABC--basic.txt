@@ -1,0 +1,5 @@
+P2PDIR 1
+grid: EM12
+entry: 7103.5 VARA_HF 500 attended daily 1400-1600Z
+entry: 145090 PACKET 1200 auto 24/7
+note: NVIS dipole, 100 W

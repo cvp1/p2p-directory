@@ -1,0 +1,46 @@
+name: pages
+# Builds and deploys the site on merge to main, and nightly so stale/remove
+# ages apply without a commit.
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sh tests/run_all.sh
+      - name: fetch the published directory (a bad listing keeps its published row)
+        run: |
+          mkdir -p site/v1
+          url="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/v1/directory.json"
+          curl -fsS --max-time 20 -o site/v1/directory.json "$url" || rm -f site/v1/directory.json
+      - name: build
+        run: python3 build.py --out site/v1
+      - name: assemble site
+        run: sh tools/assemble_site.sh site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

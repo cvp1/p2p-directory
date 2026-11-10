@@ -1,0 +1,3 @@
+P2PDIR 1
+grid: EM12
+entry: 7103.5 VARA_HF 500 sometimes daily

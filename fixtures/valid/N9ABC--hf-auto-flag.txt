@@ -1,0 +1,8 @@
+P2PDIR 1
+grid: EM12
+entry: 7103.5 VARA_HF 500 auto inside 7100-7105 segment
+entry: 7104.8 VARA_HF 500 auto edge crosses 7105
+entry: 7090 VARA_HF 500 auto outside any segment
+entry: 7090 VARA_HF 500 attended attended is never flagged
+entry: 50300 VARA_HF 500 auto 6 m and up is never flagged
+entry: 14099.4 PACKET 300 auto HF packet 500 Hz crosses gap

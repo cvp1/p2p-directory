@@ -1,0 +1,15 @@
+{
+ "call": "K1ABC",
+ "grid": "EM12",
+ "note": "",
+ "entries": [
+  {
+   "centre_khz": 3590,
+   "mode": "VARA_HF",
+   "bw_hz": 2300,
+   "control": "sked",
+   "hours": "by  arrangement",
+   "flags": []
+  }
+ ]
+}

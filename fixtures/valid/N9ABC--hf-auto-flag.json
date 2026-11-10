@@ -1,0 +1,61 @@
+{
+ "call": "N9ABC",
+ "grid": "EM12",
+ "note": "",
+ "entries": [
+  {
+   "centre_khz": 7103.5,
+   "mode": "VARA_HF",
+   "bw_hz": 500,
+   "control": "auto",
+   "hours": "inside 7100-7105 segment",
+   "flags": []
+  },
+  {
+   "centre_khz": 7104.8,
+   "mode": "VARA_HF",
+   "bw_hz": 500,
+   "control": "auto",
+   "hours": "edge crosses 7105",
+   "flags": [
+    "hf-auto-outside-97.221b"
+   ]
+  },
+  {
+   "centre_khz": 7090,
+   "mode": "VARA_HF",
+   "bw_hz": 500,
+   "control": "auto",
+   "hours": "outside any segment",
+   "flags": [
+    "hf-auto-outside-97.221b"
+   ]
+  },
+  {
+   "centre_khz": 7090,
+   "mode": "VARA_HF",
+   "bw_hz": 500,
+   "control": "attended",
+   "hours": "attended is never flagged",
+   "flags": []
+  },
+  {
+   "centre_khz": 50300,
+   "mode": "VARA_HF",
+   "bw_hz": 500,
+   "control": "auto",
+   "hours": "6 m and up is never flagged",
+   "flags": []
+  },
+  {
+   "centre_khz": 14099.4,
+   "mode": "PACKET",
+   "baud": 300,
+   "control": "auto",
+   "hours": "HF packet 500 Hz crosses gap",
+   "flags": [
+    "hf-auto-outside-97.221b"
+   ]
+  }
+ ]
+}

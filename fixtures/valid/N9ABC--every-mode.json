@@ -1,0 +1,55 @@
+{
+ "call": "N9ABC",
+ "grid": "EM12",
+ "note": "",
+ "entries": [
+  {
+   "centre_khz": 3590,
+   "mode": "VARA_HF",
+   "bw_hz": 2300,
+   "control": "attended",
+   "hours": "Sat 0100-0300Z",
+   "flags": []
+  },
+  {
+   "centre_khz": 145050,
+   "mode": "VARA_FM",
+   "bw_hz": 12500,
+   "control": "auto",
+   "hours": "24/7",
+   "flags": []
+  },
+  {
+   "centre_khz": 7101.5,
+   "mode": "ARDOP",
+   "bw_hz": 500,
+   "control": "sked",
+   "hours": "by arrangement",
+   "flags": []
+  },
+  {
+   "centre_khz": 14108,
+   "mode": "PACTOR",
+   "bw_hz": 2400,
+   "control": "attended",
+   "hours": "weekdays 1500Z",
+   "flags": []
+  },
+  {
+   "centre_khz": 145090,
+   "mode": "PACKET",
+   "baud": 1200,
+   "control": "auto",
+   "hours": "24/7",
+   "flags": []
+  },
+  {
+   "centre_khz": 10147.3,
+   "mode": "ROBUST_PACKET",
+   "baud": 300,
+   "control": "attended",
+   "hours": "evenings",
+   "flags": []
+  }
+ ]
+}

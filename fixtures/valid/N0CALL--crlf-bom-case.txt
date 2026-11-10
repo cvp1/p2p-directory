@@ -1,0 +1,5 @@
+﻿  p2pdir   1
+
+Grid: fn31pr
+ENTRY:  7103.5  vara_hf  500  Attended   daily 1400-1600Z  
+location: somewhere

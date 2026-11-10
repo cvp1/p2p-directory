@@ -1,0 +1,103 @@
+{
+ "call": "N9ABC",
+ "grid": "EM12",
+ "note": "",
+ "entries": [
+  {
+   "centre_khz": 145010,
+   "mode": "PACKET",
+   "baud": 1200,
+   "control": "auto",
+   "hours": "slot 0",
+   "flags": []
+  },
+  {
+   "centre_khz": 145020,
+   "mode": "PACKET",
+   "baud": 1200,
+   "control": "auto",
+   "hours": "slot 1",
+   "flags": []
+  },
+  {
+   "centre_khz": 145030,
+   "mode": "PACKET",
+   "baud": 1200,
+   "control": "auto",
+   "hours": "slot 2",
+   "flags": []
+  },
+  {
+   "centre_khz": 145040,
+   "mode": "PACKET",
+   "baud": 1200,
+   "control": "auto",
+   "hours": "slot 3",
+   "flags": []
+  },
+  {
+   "centre_khz": 145050,
+   "mode": "PACKET",
+   "baud": 1200,
+   "control": "auto",
+   "hours": "slot 4",
+   "flags": []
+  },
+  {
+   "centre_khz": 145060,
+   "mode": "PACKET",
+   "baud": 1200,
+   "control": "auto",
+   "hours": "slot 5",
+   "flags": []
+  },
+  {
+   "centre_khz": 145070,
+   "mode": "PACKET",
+   "baud": 1200,
+   "control": "auto",
+   "hours": "slot 6",
+   "flags": []
+  },
+  {
+   "centre_khz": 145080,
+   "mode": "PACKET",
+   "baud": 1200,
+   "control": "auto",
+   "hours": "slot 7",
+   "flags": []
+  },
+  {
+   "centre_khz": 145090,
+   "mode": "PACKET",
+   "baud": 1200,
+   "control": "auto",
+   "hours": "slot 8",
+   "flags": []
+  },
+  {
+   "centre_khz": 145100,
+   "mode": "PACKET",
+   "baud": 1200,
+   "control": "auto",
+   "hours": "slot 9",
+   "flags": []
+  },
+  {
+   "centre_khz": 145110,
+   "mode": "PACKET",
+   "baud": 1200,
+   "control": "auto",
+   "hours": "slot 10",
+   "flags": []
+  },
+  {
+   "centre_khz": 145120,
+   "mode": "PACKET",
+   "baud": 1200,
+   "control": "auto",
+   "hours": "slot 11",
+   "flags": []
+  }
+ ]
+}
