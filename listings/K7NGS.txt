@@ -1,0 +1,3 @@
+P2PDIR 1
+grid: CN86
+entry: 14300 VARA_HF 2300 auto listen window 2h
