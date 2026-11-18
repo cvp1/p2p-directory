@@ -1,0 +1,4 @@
+P2PDIR 1
+grid: CN86
+entry: 7093 VARA_HF 500 attended listen window 2h
+entry: 7081.5 VARA_HF 500 attended listen window 2h
